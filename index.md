@@ -10,8 +10,7 @@ I am a researcher specializing in the use of FGK-type stars — spanning Sun-lik
 - **Stellar Atmospheres:** Developing and applying 3D radiation-hydrodynamic simulations to improve the accuracy of stellar parameters and abundance determinations.  
 - **Stellar Spectroscopy:** Advancing 3D non-LTE spectroscopy tools and making these methods more accessible to the community.  
 - **Galactic Chemical Evolution:** Using stars as tracers to study nucleosynthesis and the chemical enrichment history of the Milky Way.  
-- **Computational Astrophysics:** Constructing grids of synthetic stellar spectra to support machine learning applications in stellar classification and analysis.  
-- **Nucleosynthesis:** Investigating the production and distribution of key elements to refine models of stellar and galactic evolution.  
+- **Computational Astrophysics:** Constructing grids of synthetic stellar spectra to support machine learning applications in stellar classification and analysis.
 - **Atomic and Molecular Physics:** The foundation of spectroscopy — accurate atomic and molecular data enable us to extract reliable astrophysical insights!   
 
 [My Publications on ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-8451-6260&sort=date+desc).

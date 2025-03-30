@@ -1,10 +1,8 @@
 title: Richard Hoppe
 logo: /assets/img/RichardHoppePhoto_new.jpg
-description: |
-  PhD student in Astronomy<br>
-  Stellar Spectroscopy Group<br>
-  Supervisor: Maria Bergemann<br>
-  Max-Planck-Institut for Astronomy, Heidelberg
+description: >
+  Astronomy PhD student at the Max-Planck-Institut for Astronomy, Heidelberg.
+  I am part of the stellar spectroscopy group led by Maria Bergemann.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
