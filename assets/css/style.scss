@@ -11,6 +11,14 @@
   background-color: transparent !important;
 }
 
+select {
+  width: auto; /* Expands width based on content */
+  min-width: 300px; /* Ensures enough space for longer filenames */
+  max-width: 100%; /* Prevents overflow */
+  white-space: nowrap; /* Prevents text wrapping */
+  overflow: visible; /* Ensures full visibility */
+}
+
 iframe {
   background: none;
 }
