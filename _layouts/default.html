@@ -47,7 +47,7 @@
 
       {{ content }}
 
-      <!-- <h2>Select a PDF to View</h2>
+      <h2>Select a PDF to View</h2>
       <select id="pdfSelector" onchange="loadPDF()">
         <option value="">--Select a PDF--</option>
         {% for pdf in site.static_files %}
@@ -55,11 +55,22 @@
             <option value="{{ pdf.path }}">{{ pdf.name }}</option>
           {% endif %}
         {% endfor %}
-      </select> -->
-      
+      </select>
+
       <div id="my-pdf"></div>
       <script src="https://unpkg.com/pdfobject"></script>
-      <script>PDFObject.embed("assets/Stagger_figures/3500_45_-0_temp.pdf", "#my-pdf");</script>
+      <script>
+        function loadPDF() {
+            var selector = document.getElementById("pdfSelector");
+            var selectedPDF = selector.value;
+            
+            if (selectedPDF) {
+                PDFObject.embed(selectedPDF, "#my-pdf");
+            } else {
+                document.getElementById("my-pdf").innerHTML = ""; // Clear the PDF viewer
+            }
+        }
+      </script>
 
       </section>
       <footer>
