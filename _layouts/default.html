@@ -69,6 +69,26 @@
                 document.getElementById("my-pdf").innerHTML = ""; // Clear the PDF viewer
             }
         }
+
+        // Trigger loadPDF on page load to display the default PDF
+        document.addEventListener("DOMContentLoaded", function() {
+            // Set the default PDF (replace with your default path)
+            var defaultPDF = "./assets/Stagger_figures/5750_45_-0_temp.pdf"; 
+
+            // Find and set the corresponding option as selected
+            var selector = document.getElementById("pdfSelector");
+            var options = selector.options;
+            for (var i = 0; i < options.length; i++) {
+                if (options[i].value === defaultPDF) {
+                    options[i].selected = true;
+                    break;
+                }
+            }
+
+            // Load the default PDF
+            loadPDF();
+        });
+
       </script>
 
       </section>
