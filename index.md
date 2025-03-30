@@ -11,7 +11,9 @@ I am a researcher specializing in the use of FGK-type stars — spanning Sun-lik
 - **Stellar Spectroscopy:** Advancing 3D non-LTE spectroscopy tools and making these methods more accessible to the community.  
 - **Galactic Chemical Evolution:** Using stars as tracers to study nucleosynthesis and the chemical enrichment history of the Milky Way.  
 - **Computational Astrophysics:** Constructing grids of synthetic stellar spectra to support machine learning applications in stellar classification and analysis.
-- **Atomic and Molecular Physics:** The foundation of spectroscopy — accurate atomic and molecular data enable us to extract reliable astrophysical insights!   
+- **Atomic and Molecular Physics:** The foundation of spectroscopy — accurate atomic and molecular data enable us to extract reliable astrophysical insights! 
+
+![alt text](/assets/img/BlenderSun.jpeg "Solar Sketch")
 
 <!-- 
 
