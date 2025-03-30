@@ -47,9 +47,8 @@
 
       {{ content }}
 
-      <h2>Select a PDF to View</h2>
       <select id="pdfSelector" onchange="loadPDF()">
-        <option value="">--Select a PDF--</option>
+        <option value="">--Select an Atmosphere--</option>
         {% for pdf in site.static_files %}
           {% if pdf.path contains 'assets/Stagger_figures/' and pdf.extname == '.pdf' %}
             <option value="{{ pdf.path }}">{{ pdf.name }}</option>
