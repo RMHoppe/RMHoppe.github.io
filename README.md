@@ -1,16 +1,3 @@
-## About Me
-
-I am a researcher specializing in the use of FGK-type stars — spanning Sun-like stars to evolved red giants — to investigate nucleosynthesis and the chemical evolution of our galaxy. My work focuses on applying 3D non-LTE spectral modeling techniques to analyze stellar spectra. This approach enhances the accuracy of stellar parameters and chemical abundance determinations, which is crucial for large-scale stellar surveys such as 4MOST, where I am directly involved.
-
-## Research Interests
-- **Stellar Atmospheres:** Developing and applying 3D radiation-hydrodynamic simulations to improve the accuracy of stellar parameters and abundance determinations.  
-- **Stellar Spectroscopy:** Advancing 3D non-LTE spectroscopy tools and making these methods more accessible to the community.  
-- **Galactic Chemical Evolution:** Using stars as tracers to study nucleosynthesis and the chemical enrichment history of the Milky Way.  
-- **Computational Astrophysics:** Constructing grids of synthetic stellar spectra to support machine learning applications in stellar classification and analysis.  
-- **Nucleosynthesis:** Investigating the production and distribution of key elements to refine models of stellar and galactic evolution.  
-- **Atomic and Molecular Physics:** The foundation of spectroscopy — accurate atomic and molecular data enable us to extract reliable astrophysical insights!   
-
-
 # The Minimal theme
 
 [![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
