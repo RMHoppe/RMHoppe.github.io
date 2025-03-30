@@ -1,6 +1,7 @@
-title: Minimal theme
+title: Richard Hoppe
 logo: /assets/img/RichardHoppePhoto_new.jpg
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+description: Astronomy PhD student at the MPIA, Heidelberg.
+  position: PhD Student
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
