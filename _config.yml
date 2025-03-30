@@ -6,3 +6,5 @@ description: >
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+include:
+  - assets/Stagger_figures/
