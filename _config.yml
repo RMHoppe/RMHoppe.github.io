@@ -1,7 +1,10 @@
 title: Richard Hoppe
 logo: /assets/img/RichardHoppePhoto_new.jpg
-description: Astronomy PhD student at the MPIA, Heidelberg.
-  position: PhD Student
+description: |
+  PhD student in Astronomy
+  Stellar Spectroscopy Group
+  Supervisor: Maria Bergemann
+  Max-Planck-Institut for Astronomy, Heidelberg
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
