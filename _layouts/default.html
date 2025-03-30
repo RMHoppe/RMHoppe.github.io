@@ -49,12 +49,13 @@
 
       <select id="pdfSelector" onchange="loadPDF()">
         <option value="">--Select an Atmosphere--</option>
+        <option value="assets/Stagger_figures/5750_45_-0_temp.pdf" selected>Default PDF</option>
         {% for pdf in site.static_files %}
-          {% if pdf.path contains 'assets/Stagger_figures/' and pdf.extname == '.pdf' %}
-            <option value="{{ pdf.path }}">{{ pdf.name }}</option>
-          {% endif %}
+            {% if pdf.path contains 'assets/Stagger_figures/' and pdf.extname == '.pdf' %}
+                <option value="{{ pdf.path }}">{{ pdf.name }}</option>
+            {% endif %}
         {% endfor %}
-      </select>
+    </select>
 
       <div id="my-pdf"></div>
       <script src="https://unpkg.com/pdfobject"></script>
@@ -72,19 +73,6 @@
 
         // Trigger loadPDF on page load to display the default PDF
         document.addEventListener("DOMContentLoaded", function() {
-            // Set the default PDF (replace with your default path)
-            var defaultPDF = "./assets/Stagger_figures/5750_45_-0_temp.pdf"; 
-
-            // Find and set the corresponding option as selected
-            var selector = document.getElementById("pdfSelector");
-            var options = selector.options;
-            for (var i = 0; i < options.length; i++) {
-                if (options[i].value === defaultPDF) {
-                    options[i].selected = true;
-                    break;
-                }
-            }
-
             // Load the default PDF
             loadPDF();
         });
