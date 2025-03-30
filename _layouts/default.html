@@ -47,15 +47,16 @@
 
       {{ content }}
 
+      <h3>1D vs 3D stellar models:</h3>
       <select id="pdfSelector" onchange="loadPDF()">
         <option value="">--Select an Atmosphere--</option>
-        <option value="assets/Stagger_figures/5750_45_-0_temp.pdf" selected>Default PDF</option>
+        <option value="assets/Stagger_figures/5750_45_-0_temp.pdf" selected>Teff_logg_FeH.pdf</option>
         {% for pdf in site.static_files %}
             {% if pdf.path contains 'assets/Stagger_figures/' and pdf.extname == '.pdf' %}
                 <option value="{{ pdf.path }}">{{ pdf.name }}</option>
             {% endif %}
         {% endfor %}
-    </select>
+      </select>
 
       <div id="my-pdf"></div>
       <script src="https://unpkg.com/pdfobject"></script>
