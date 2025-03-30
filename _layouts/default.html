@@ -27,6 +27,10 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
+        <p class="view"><a href="{{ https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-8451-6260&sort=date+desc }}"
+          >View My Publications on ADS</a>
+        </p>
+
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
@@ -43,7 +47,7 @@
 
       {{ content }}
 
-      <h2>Select a PDF to View</h2>
+      <!-- <h2>Select a PDF to View</h2>
       <select id="pdfSelector" onchange="loadPDF()">
         <option value="">--Select a PDF--</option>
         {% for pdf in site.static_files %}
@@ -51,33 +55,11 @@
             <option value="{{ pdf.path }}">{{ pdf.name }}</option>
           {% endif %}
         {% endfor %}
-      </select>
+      </select> -->
       
-      <iframe id="pdfViewer"></iframe>
-  
-      <script>
-        function adjustPDFHeight() {
-            var pdfViewer = document.getElementById("pdfViewer");
-            pdfViewer.style.height = window.innerHeight + "px"; // Full viewport height
-        }
-    
-        function loadPDF() {
-            var selector = document.getElementById("pdfSelector");
-            var pdfViewer = document.getElementById("pdfViewer");
-            var selectedPDF = selector.value;
-    
-            if (selectedPDF) {
-                pdfViewer.src = selectedPDF;
-            } else {
-                pdfViewer.src = "";
-            }
-    
-            adjustPDFHeight(); // Adjust height on load
-        }
-    
-        window.addEventListener("resize", adjustPDFHeight); // Adjust on window resize
-        document.addEventListener("DOMContentLoaded", adjustPDFHeight); // Adjust on page load
-      </script>
+      <div id="my-pdf"></div>
+      <script src="https://unpkg.com/pdfobject"></script>
+      <script>PDFObject.embed("assets/Stagger_figures/3500_45_-0_temp.pdf", "#my-pdf");</script>
 
       </section>
       <footer>

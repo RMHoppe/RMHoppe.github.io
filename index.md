@@ -13,8 +13,6 @@ I am a researcher specializing in the use of FGK-type stars — spanning Sun-lik
 - **Computational Astrophysics:** Constructing grids of synthetic stellar spectra to support machine learning applications in stellar classification and analysis.
 - **Atomic and Molecular Physics:** The foundation of spectroscopy — accurate atomic and molecular data enable us to extract reliable astrophysical insights!   
 
-[My Publications on ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-8451-6260&sort=date+desc).
-
 <!-- 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
