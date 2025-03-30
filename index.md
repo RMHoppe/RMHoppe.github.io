@@ -14,6 +14,9 @@ I am a researcher specializing in the use of FGK-type stars — spanning Sun-lik
 - **Nucleosynthesis:** Investigating the production and distribution of key elements to refine models of stellar and galactic evolution.  
 - **Atomic and Molecular Physics:** The foundation of spectroscopy — accurate atomic and molecular data enable us to extract reliable astrophysical insights!   
 
+[My Publications on ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-8451-6260&sort=date+desc).
+
+<!-- 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -133,4 +136,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 
 ```
 The final element.
-```
+``` -->
