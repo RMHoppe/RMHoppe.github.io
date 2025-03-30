@@ -53,20 +53,30 @@
         {% endfor %}
       </select>
       
-      <iframe id="pdfViewer" width="100%" height="600px"></iframe>
+      <iframe id="pdfViewer"></iframe>
   
       <script>
-          function loadPDF() {
-              var selector = document.getElementById("pdfSelector");
-              var pdfViewer = document.getElementById("pdfViewer");
-              var selectedPDF = selector.value;
-  
-              if (selectedPDF) {
-                  pdfViewer.src = selectedPDF;
-              } else {
-                  pdfViewer.src = "";
-              }
-          }
+        function adjustPDFHeight() {
+            var pdfViewer = document.getElementById("pdfViewer");
+            pdfViewer.style.height = window.innerHeight + "px"; // Full viewport height
+        }
+    
+        function loadPDF() {
+            var selector = document.getElementById("pdfSelector");
+            var pdfViewer = document.getElementById("pdfViewer");
+            var selectedPDF = selector.value;
+    
+            if (selectedPDF) {
+                pdfViewer.src = selectedPDF;
+            } else {
+                pdfViewer.src = "";
+            }
+    
+            adjustPDFHeight(); // Adjust height on load
+        }
+    
+        window.addEventListener("resize", adjustPDFHeight); // Adjust on window resize
+        document.addEventListener("DOMContentLoaded", adjustPDFHeight); // Adjust on page load
       </script>
 
       </section>
