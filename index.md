@@ -18,7 +18,7 @@ My research primarily focuses on the photosphere, which is the layer of stellar 
 ![alt text](/assets/img/BlenderSun.jpeg "Solar Sketch")
 
 <h3>1D vs 3D stellar models:</h3>
-While 1D stellar models tabulate unique temperatures and densities as a function of radius, 3D radiation-hydrodynamic modles include horizontal inhomogeneities and time-dependence in these quantities. It is common to plot the state variables as a function of optical depth $\tau$, rather than radius. $\log\tau=0$ roughly defines the optical surface of all stars, even if they have very different radii.
+While 1D stellar models tabulate temperature and density as a function of radius, radiation-hydrodynamic models are time-dependent 3D cubes. Therefore the temperature/density at a given radius is no longer unique but there are inhomogeneities across the surface of the star. It is common to plot the state variables as a function of optical depth $\tau$, rather than radius. $\log\tau=0$ roughly defines the optical surface of all kinds of stars, even if they have very different radii. In the plots below one can choose a particular star type and compare the temperature structures resulting from 1D and 3D modelling. The shaded regions in the background show the variety of temperatures in the 3D model. The solid black line shows the average of the 3D model, whereas the red dashed line represents the 1D model.
 
 {::nomarkdown}
 <select id="pdfSelector" onchange="loadPDF()">
