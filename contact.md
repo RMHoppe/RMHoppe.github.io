@@ -6,8 +6,11 @@ layout: default
 
 **Work Address**
 Richard Hoppe
+
 Max-Planck-Institut für Astronomie
+
 Königsstuhl 17
+
 69117 Heidelberg
 
 Email: <span id="email"></span>
