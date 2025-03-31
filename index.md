@@ -17,6 +17,38 @@ My research primarily focuses on the photosphere, which is the layer of stellar 
 
 ![alt text](/assets/img/BlenderSun.jpeg "Solar Sketch")
 
+<h3>1D vs 3D stellar models:</h3>
+<select id="pdfSelector" onchange="loadPDF()">
+  <option value="">--Select an Atmosphere--</option>
+  <option value="assets/Stagger_figures/5750_45_-0_temp.pdf" selected>Teff_logg_FeH_var.pdf</option>
+  {% for pdf in site.static_files %}
+      {% if pdf.path contains 'assets/Stagger_figures/' and pdf.extname == '.pdf' %}
+          <option value="{{ pdf.path }}">{{ pdf.name }}</option>
+      {% endif %}
+  {% endfor %}
+</select>
+
+<div id="my-pdf"></div>
+<script src="https://unpkg.com/pdfobject"></script>
+<script>
+  function loadPDF() {
+    var selector = document.getElementById("pdfSelector");
+    var selectedPDF = selector.value;
+    
+    if (selectedPDF) {
+        PDFObject.embed(selectedPDF, "#my-pdf");
+    } else {
+        document.getElementById("my-pdf").innerHTML = ""; // Clear the PDF viewer
+    }
+  }
+
+  // Trigger loadPDF on page load to display the default PDF
+  document.addEventListener("DOMContentLoaded", function() {
+      // Load the default PDF
+      loadPDF();
+  });
+</script>
+
 <!-- 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
