@@ -5,6 +5,7 @@ layout: default
 ## Contact
 
 **Work Address**
+
 Richard Hoppe
 
 Max-Planck-Institut für Astronomie
