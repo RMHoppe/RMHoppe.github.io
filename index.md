@@ -18,7 +18,6 @@ My research primarily focuses on the photosphere, which is the layer of stellar 
 ![alt text](/assets/img/BlenderSun.jpeg "Solar Sketch")
 
 <h3>1D vs 3D stellar models:</h3>
-{% raw %}
 <select id="pdfSelector" onchange="loadPDF()">
   <option value="">--Select an Atmosphere--</option>
   <option value="assets/Stagger_figures/5750_45_-0_temp.pdf" selected>Teff_logg_FeH_var.pdf</option>
@@ -49,7 +48,6 @@ My research primarily focuses on the photosphere, which is the layer of stellar 
       loadPDF();
   });
 </script>
-{% endraw %}
 
 <!-- 
 
