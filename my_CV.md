@@ -4,17 +4,17 @@ layout: default
 
 ## Education
 
-| Degree                          | Institution                                | Years       | Grade          |
-|---------------------------------|-------------------------------------------|------------|--------------|
-| Abitur                          | Fichte Gymnasium, Hagen                  | 2006-2013  | 1.3          |
-| B.Sc. Physics & Astronomy       | University of Glasgow                     | 2013-2017  | First Class Honours |
-| M.Sc. Physik                    | Ruprecht-Karls-Universität Heidelberg     | 2018-2021  | 1.4          |
+| Degree                          | Institution                               | Years      |
+|---------------------------------|-------------------------------------------|------------|
+| Abitur                          | Fichte Gymnasium, Hagen                   | 2006-2013  |
+| B.Sc. Physics & Astronomy       | University of Glasgow                     | 2013-2017  |
+| M.Sc. Physik                    | Ruprecht-Karls-Universität Heidelberg     | 2018-2021  |
 
 ## Employment History
 
-| Position                        | Institution                               | Years       |
-|---------------------------------|-------------------------------------------|------------|
-| Wissenschaftliche Hilfskraft    | MPI für Astronomie, Heidelberg            | 2019-2021  |
-| Werksstudent                    | Hamburg Wasser, Hamburg                   | 2020       |
-| Wissenschaftlicher Mitarbeiter  | MPI für Astronomie, Heidelberg            | 2021-2022  |
-
+| Position                        | Institution                              | Years      |
+|---------------------------------|------------------------------------------|------------|
+| Research Assistant              | MPI for Astronomy, Heidelberg            | 2019-2021  |
+| Working Student                 | Hamburg Wasser, Hamburg                  | 2020       |
+| Research Associate              | MPI for Astronomy, Heidelberg            | 2021-2023  |
+| Doctoral Researcher             | MPI for Astronomy, Heidelberg            | 2023-present |
