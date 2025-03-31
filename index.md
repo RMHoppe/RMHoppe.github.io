@@ -13,6 +13,8 @@ I am a researcher specializing in the use of FGK-type stars — spanning Sun-lik
 - **Computational Astrophysics:** Constructing grids of synthetic stellar spectra to support machine learning applications in stellar classification and analysis.
 - **Atomic and Molecular Physics:** The foundation of spectroscopy — accurate atomic and molecular data enable us to extract reliable astrophysical insights! 
 
+* * *
+
 My research primarily focuses on the photosphere, which is the layer of stellar atmospheres where the most photons escape into space. Although stars do not have a solid surface, the photosphere is often referred to as the "surface" of the star, as it is the layer we observe. Below is a sketch I created that illustrates the different layers of the Sun.
 
 ![alt text](/assets/img/BlenderSun.jpeg "Solar Sketch")
